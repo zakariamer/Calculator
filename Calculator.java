@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args){
+        System.out.println("Just added this because I forgot to screenshot when working on the assignment");
         Scanner scan  = new Scanner(System.in);
 
         System.out.println("Enter two whole numbers...");
