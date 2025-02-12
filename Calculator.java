@@ -22,6 +22,10 @@ public class Calculator {
                 System.out.println(num1 * num2);
                 break;
             case 4:
+                if (num2 == 0){
+                    System.out.println("Error: Divide by Zero");
+                    break;
+                }
                 System.out.println(num1 / num2);
                 break;
         }
