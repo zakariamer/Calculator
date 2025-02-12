@@ -5,8 +5,8 @@ public class Calculator {
         Scanner scan  = new Scanner(System.in);
 
         System.out.println("Enter two whole numbers...");
-        int num1 = scan.nextInt();
-        int num2 = scan.nextInt();
+        float num1 = scan.nextFloat();
+        float num2 = scan.nextFloat();
 
         System.out.println("You wanna add, subtract, multiple, or divide? (1 = add | 2 = subtract | 3 = multiply | 4 = divide)");
         int answer = scan.nextInt();
